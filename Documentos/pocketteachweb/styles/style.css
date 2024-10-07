@@ -1,0 +1,32 @@
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.logo{
+    height: 100%;
+}
+
+.progress-wrapper {
+  position: relative;
+  top: 50%;
+}
+
+.progress-wrapper .progress {
+  margin: 0;
+}
+
+.content-progress {
+  color: gray;
+}
+
+.content-progress:hover {
+  text-decoration: underline;
+}
